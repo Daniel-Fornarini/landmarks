@@ -11,6 +11,11 @@
 		F43561BE282AA49600303126 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561BD282AA49600303126 /* ContentView.swift */; };
 		F43561C0282AA49900303126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43561BF282AA49900303126 /* Assets.xcassets */; };
 		F43561C3282AA49900303126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43561C2282AA49900303126 /* Preview Assets.xcassets */; };
+		F43561CA282AA57000303126 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561C9282AA57000303126 /* CircleImage.swift */; };
+		F43561CC282AA5DA00303126 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561CB282AA5DA00303126 /* MapView.swift */; };
+		F43561CE282AACF000303126 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F43561CD282AACF000303126 /* landmarkData.json */; };
+		F43561D0282AAD0900303126 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561CF282AAD0900303126 /* Landmark.swift */; };
+		F43561D2282AAEEF00303126 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561D1282AAEEF00303126 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F43561BD282AA49600303126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F43561BF282AA49900303126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43561C2282AA49900303126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F43561C9282AA57000303126 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F43561CB282AA5DA00303126 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F43561CD282AACF000303126 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F43561CF282AAD0900303126 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		F43561D1282AAEEF00303126 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,14 @@
 		F43561BA282AA49600303126 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				F43561CD282AACF000303126 /* landmarkData.json */,
 				F43561BB282AA49600303126 /* LandmarksApp.swift */,
 				F43561BD282AA49600303126 /* ContentView.swift */,
+				F43561CF282AAD0900303126 /* Landmark.swift */,
+				F43561D1282AAEEF00303126 /* ModelData.swift */,
 				F43561BF282AA49900303126 /* Assets.xcassets */,
+				F43561C9282AA57000303126 /* CircleImage.swift */,
+				F43561CB282AA5DA00303126 /* MapView.swift */,
 				F43561C1282AA49900303126 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -127,6 +142,7 @@
 			files = (
 				F43561C3282AA49900303126 /* Preview Assets.xcassets in Resources */,
 				F43561C0282AA49900303126 /* Assets.xcassets in Resources */,
+				F43561CE282AACF000303126 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43561BE282AA49600303126 /* ContentView.swift in Sources */,
+				F43561CC282AA5DA00303126 /* MapView.swift in Sources */,
 				F43561BC282AA49600303126 /* LandmarksApp.swift in Sources */,
+				F43561CA282AA57000303126 /* CircleImage.swift in Sources */,
+				F43561D0282AAD0900303126 /* Landmark.swift in Sources */,
+				F43561D2282AAEEF00303126 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
